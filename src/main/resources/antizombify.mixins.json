@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.infernal_coding.antizombify.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "antizombify.refmap.json",
+  "mixins": [
+    "AbstractPiglinEntityMixin",
+    "HoglinMobsSensorMixin",
+    "LivingEntityMixin",
+    "MobEntityMixin",
+    "PiglinBruteEntityMixin",
+    "PiglinEntityMixin"
+  ],
+  "minVersion": "0.8"
+}
